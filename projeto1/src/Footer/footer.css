@@ -1,0 +1,48 @@
+.secao-footer{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+.footer-logo-contato{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ 
+  .logo{
+ 
+    width: 239px;
+    height: 195px;
+    border-radius: 50px;
+  }
+  .footer-contatos{
+    display: flex;
+    flex-direction: column;
+    p{
+      padding: 0px;
+    }
+    .footer-rede-contatos{
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      a{
+        padding: 0px;
+      }
+      img{
+        width: 30px;
+        height: 30px;
+        
+        
+      }
+    }
+  }
+}
+
+    .footer-texto{
+      background-color:#A4BABD;
+      width: 500px;
+      padding: 20px;
+      border-radius: 50px;
+    }
+  }

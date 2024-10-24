@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './Navbar/Navbar';
-
+import Footer from './Footer';
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* Outros componentes podem vir aqui */}
+      {<Footer/>}
     </div>
   );
 }
