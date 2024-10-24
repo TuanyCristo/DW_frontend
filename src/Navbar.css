@@ -1,0 +1,68 @@
+/* Estilos gerais para a navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b1c2c3; /* Cor de fundo semelhante ao exemplo */
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #036d65; /* Cor do texto do logotipo */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000080; /* Cor dos links */
+    font-weight: 500;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-entrar {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-cadastrar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-entrar:hover,
+  .btn-cadastrar:hover {
+    opacity: 0.8;
+  }
+  
