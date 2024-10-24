@@ -1,0 +1,34 @@
+.secao_3-Fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+       
+  }
+  h3{
+    color: #1d1172;
+}
+
+  .secao_3-Fotos .imagem-1 {
+    width: 250px; 
+    height: 300px; 
+    border-radius: 15px; 
+      
+  }
+
+  .secao_3-Fotos .imagem-2 {
+    
+    width: 250px; 
+    height: 300px; 
+    border-radius: 15px; 
+  
+  }
+
+  .secao_3-Fotos .imagem-3 {
+    
+    width: 250px; 
+    height: 300px; 
+    border-radius: 15px; 
+  
+  }

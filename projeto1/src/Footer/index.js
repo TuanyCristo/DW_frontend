@@ -1,7 +1,9 @@
 import React from 'react';
 import "./footer.css"
 import logo from "../images/logo.png";
-import instagram from "../images/instagram.png"
+import instagram from "../images/instagram.png";
+import facebook from "../images/facebook.png";
+import whatsapp from "../images/whatsapp.png";
 
 export default function Footer(){
   return(
@@ -14,8 +16,8 @@ export default function Footer(){
           <div class="footer-rede-contatos">
             <a href=""><img src= {instagram} alt="instagram" /></a>
             
-            <a href=""><img src="/public/assets/img/facebook.png" alt="facebook" /></a>
-            <a href=""><img src="/public/assets/img/whatsapp.png" alt="whatsapp" /></a>
+            <a href=""><img src={facebook} alt="facebook" /></a>
+            <a href=""><img src={whatsapp} alt="whatsapp" /></a>
           </div>
         </div>
         </div>
