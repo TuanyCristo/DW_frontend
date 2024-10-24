@@ -1,0 +1,12 @@
+.sessao-2 {
+    background-color: #A2B8BB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.paragrafo{
+    align-content: center;
+}
+
+
